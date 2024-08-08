@@ -1,26 +1,66 @@
-# My Awesome Project
+# To-Do List Application
 
-## Description
-
-My Awesome Project is a web application designed to simplify task management. It allows users to create, update, and delete tasks, set deadlines, and track progress. The project aims to improve productivity and organization through a user-friendly interface.
+A simple to-do list application that allows users to add, complete, delete, and filter tasks. It also features a dark mode toggle.
 
 ## Features
 
-- Create and manage tasks with due dates
-- Categorize tasks with tags
-- Mark tasks as complete or incomplete
-- Track progress with visual indicators
-- User authentication and profile management
+- Add new tasks
+- Mark tasks as completed or incomplete
+- Delete tasks
+- Filter tasks by completed, incomplete, or all
+- Toggle dark mode
+
+## Technologies Used
+
+- **HTML**: Markup structure
+- **CSS**: Styling, including dark mode
+- **JavaScript**: Functionality for adding, deleting, filtering tasks, and toggling dark mode
 
 ## Installation
 
-### Prerequisites
+1. Clone the repository:
+    ```bash
+    git clone <https://github.com/Hinikhan25/To_DO-List>
+    ```
 
-- [Node.js](https://nodejs.org/) (v14 or higher)
-- [npm](https://www.npmjs.com/) (comes with Node.js)
+2. Navigate to the project directory:
+    ```bash
+    cd <project-directory>
+    ```
 
-### Steps
+3. Open `index.html` in your browser to view the application.
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/my-awesome-project.git
+## Usage
+
+1. **Add a Task:**
+   - Type your task into the input field and click the "Add Task" button or press `Enter`.
+
+2. **Complete/Incomplete a Task:**
+   - Click the checkbox next to the task to mark it as completed or incomplete.
+
+3. **Delete a Task:**
+   - Click the ❌ button next to the task to remove it from the list.
+
+4. **Filter Tasks:**
+   - Use the dropdown menu to filter tasks by "Completed", "Incomplete", or "All".
+
+5. **Toggle Dark Mode:**
+   - Click the ☀️ or ☾ button to switch between light and dark modes.
+
+## Code Explanation
+
+- **HTML:** Provides the structure for the to-do list application.
+- **CSS:** Handles the visual styling and includes dark mode customization.
+- **JavaScript:** Manages task addition, deletion, filtering, and dark mode functionality.
+
+## Contributing
+
+Feel free to submit issues and pull requests. Contributions are welcome!
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any questions or comments, please reach out to [your-email@example.com](mailto:hinamehboob740@gmail.com).
